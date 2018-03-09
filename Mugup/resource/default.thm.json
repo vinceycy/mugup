@@ -1,5 +1,7 @@
 {
-    "skins": {
-        "LoginView": "resource/eui_skins/LoginView.exml"
-    }
+	"skins": {
+		"LoginView": "resource/eui_skins/LoginView.exml"
+	},
+	"path": "resource/default.thm.json",
+	"exmls": []
 }
