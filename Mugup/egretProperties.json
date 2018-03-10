@@ -5,15 +5,21 @@
   "target": {
     "current": "web"
   },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
   "modules": [
     {
       "name": "egret"
     },
     {
-      "name": "game"
-    },
-    {
-      "name": "tween"
+      "name": "eui"
     },
     {
       "name": "assetsmanager"
@@ -22,10 +28,13 @@
       "name": "dragonBones"
     },
     {
-      "name": "socket"
+      "name": "game"
     },
     {
-      "name": "eui"
+      "name": "tween"
+    },
+    {
+      "name": "socket"
     },
     {
       "name": "promise"

@@ -1,20 +1,15 @@
 {
 	"groups": [
 		{
-			"keys": "GP_login_title_png,GP_login_icon_png,GP_login_facebook_png,GP_login_twitter_png,GP_login_google_jpeg,GP_login_guest_jpeg,GP_login_start_png",
-			"name": "preload"
+			"name": "preload",
+			"keys": "GP_login_guest_jpeg,GP_login_facebook_png,GP_login_icon_png,GP_login_google_jpeg,GP_login_start_png,GP_login_title_png,GP_login_twitter_png"
 		}
 	],
 	"resources": [
 		{
-			"url": "assets/GP_login_title.png",
+			"name": "GP_login_guest_jpeg",
 			"type": "image",
-			"name": "GP_login_title_png"
-		},
-		{
-			"name": "GP_login_icon_png",
-			"type": "image",
-			"url": "assets/GP_login_icon.png"
+			"url": "assets/GP_login_guest.jpeg"
 		},
 		{
 			"name": "GP_login_facebook_png",
@@ -22,9 +17,9 @@
 			"url": "assets/GP_login_facebook.png"
 		},
 		{
-			"name": "GP_login_twitter_png",
+			"name": "GP_login_icon_png",
 			"type": "image",
-			"url": "assets/GP_login_twitter.png"
+			"url": "assets/GP_login_icon.png"
 		},
 		{
 			"name": "GP_login_google_jpeg",
@@ -32,14 +27,19 @@
 			"url": "assets/GP_login_google.jpeg"
 		},
 		{
-			"name": "GP_login_guest_jpeg",
-			"type": "image",
-			"url": "assets/GP_login_guest.jpeg"
-		},
-		{
 			"name": "GP_login_start_png",
 			"type": "image",
 			"url": "assets/GP_login_start.png"
+		},
+		{
+			"name": "GP_login_title_png",
+			"type": "image",
+			"url": "assets/GP_login_title.png"
+		},
+		{
+			"name": "GP_login_twitter_png",
+			"type": "image",
+			"url": "assets/GP_login_twitter.png"
 		}
 	]
 }

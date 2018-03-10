@@ -29,6 +29,7 @@
 
 class Main extends eui.UILayer {
 
+
     protected createChildren(): void {
         super.createChildren();
 
@@ -62,6 +63,7 @@ class Main extends eui.UILayer {
         await platform.login();
         const userInfo = await platform.getUserInfo();
         console.log(userInfo);
+
     }
 
     private async loadResource() {
@@ -91,10 +93,10 @@ class Main extends eui.UILayer {
     }
 
     /**
-     * 创建游戏场景
-     * Create a game scene
+     * 创建场景界面
+     * Create scene interface
      */
-    private createGameScene() {
+    protected createGameScene(): void {
         this.addChild(new LoginView());
     }
 }
