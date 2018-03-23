@@ -29,6 +29,7 @@
 
 class Main extends eui.UILayer {
 
+    private loginView: LoginView;
 
     protected createChildren(): void {
         super.createChildren();
@@ -68,12 +69,10 @@ class Main extends eui.UILayer {
 
     private async loadResource() {
         try {
-            const loadingView = new LoadingUI();
-            this.stage.addChild(loadingView);
             await RES.loadConfig("resource/default.res.json", "resource/");
             await this.loadTheme();
-            await RES.loadGroup("preload", 0, loadingView);
-            this.stage.removeChild(loadingView);
+            await RES.loadGroup("preload", 0, this.loginView);
+            this.stage.removeChild(this.loginView);
         }
         catch (e) {
             console.error(e);
@@ -97,6 +96,8 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        this.addChild(new LoginView());
+        this.loginView = new LoginView();
+        this.addChild(this.loginView);
+        RES.loadGroup("base", 0, this.loginView);
     }
 }

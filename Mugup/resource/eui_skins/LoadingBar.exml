@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16252e9e459" ></w:Config>
+	<e:Image id="thumb" source="LoginPage_LoadingBar_02_png" scale9Grid="66,4,402,27"/>
+	<e:Image id="LoadingBar_01" source="LoginPage_LoadingBar_01_png"/>
+</e:Skin>

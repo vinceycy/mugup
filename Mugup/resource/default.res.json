@@ -1,8 +1,12 @@
 {
 	"groups": [
 		{
-			"keys": "LoginPage_LoadingBar_02_png,LoginPage_LoadingBar_01_png,LoginPage_BTN_Twitter_png,LoginPage_BTN_Guest_png,LoginPage_BTN_Google_png,LoginPage_BTN_FB_png,LoginPage_BG_png",
+			"keys": "LoginPage_LoadingBar_02_png,LoginPage_LoadingBar_01_png,LoginPage_BG_png",
 			"name": "preload"
+		},
+		{
+			"keys": "LoginPage_BTN_Twitter_png,LoginPage_BTN_Guest_png,LoginPage_BTN_Google_png,LoginPage_BTN_FB_png",
+			"name": "base"
 		}
 	],
 	"resources": [

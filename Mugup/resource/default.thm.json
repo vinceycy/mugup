@@ -13,10 +13,12 @@
 		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
 		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
-		"LoginView": "resource/eui_skins/LoginView.exml"
+		"LoginView": "resource/eui_skins/LoginView.exml",
+		"LoadingBar": "resource/eui_skins/LoadingBar.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
+		"resource/eui_skins/LoadingBar.exml",
 		"resource/eui_skins/LoginView.exml"
 	],
 	"path": "resource/default.thm.json"
