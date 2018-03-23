@@ -1,45 +1,45 @@
 {
 	"groups": [
 		{
-			"name": "preload",
-			"keys": "GP_login_guest_jpeg,GP_login_facebook_png,GP_login_icon_png,GP_login_google_jpeg,GP_login_start_png,GP_login_title_png,GP_login_twitter_png"
+			"keys": "LoginPage_LoadingBar_02_png,LoginPage_LoadingBar_01_png,LoginPage_BTN_Twitter_png,LoginPage_BTN_Guest_png,LoginPage_BTN_Google_png,LoginPage_BTN_FB_png,LoginPage_BG_png",
+			"name": "preload"
 		}
 	],
 	"resources": [
 		{
-			"name": "GP_login_guest_jpeg",
+			"url": "assets/LoginPage_LoadingBar_02.png",
 			"type": "image",
-			"url": "assets/GP_login_guest.jpeg"
+			"name": "LoginPage_LoadingBar_02_png"
 		},
 		{
-			"name": "GP_login_facebook_png",
+			"url": "assets/LoginPage_BG.png",
 			"type": "image",
-			"url": "assets/GP_login_facebook.png"
+			"name": "LoginPage_BG_png"
 		},
 		{
-			"name": "GP_login_icon_png",
+			"url": "assets/LoginPage_BTN_FB.png",
 			"type": "image",
-			"url": "assets/GP_login_icon.png"
+			"name": "LoginPage_BTN_FB_png"
 		},
 		{
-			"name": "GP_login_google_jpeg",
+			"url": "assets/LoginPage_BTN_Guest.png",
 			"type": "image",
-			"url": "assets/GP_login_google.jpeg"
+			"name": "LoginPage_BTN_Guest_png"
 		},
 		{
-			"name": "GP_login_start_png",
+			"url": "assets/LoginPage_BTN_Twitter.png",
 			"type": "image",
-			"url": "assets/GP_login_start.png"
+			"name": "LoginPage_BTN_Twitter_png"
 		},
 		{
-			"name": "GP_login_title_png",
+			"url": "assets/LoginPage_LoadingBar_01.png",
 			"type": "image",
-			"url": "assets/GP_login_title.png"
+			"name": "LoginPage_LoadingBar_01_png"
 		},
 		{
-			"name": "GP_login_twitter_png",
+			"url": "assets/LoginPage_BTN_Google.png",
 			"type": "image",
-			"url": "assets/GP_login_twitter.png"
+			"name": "LoginPage_BTN_Google_png"
 		}
 	]
 }
